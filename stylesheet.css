@@ -1,0 +1,118 @@
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    color: silver;
+
+
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav li {
+
+    display: inline-block;
+    list-style: none;
+    flex-direction: row;
+
+}
+
+
+
+
+#banner {
+    background: rgb(65, 48, 55);
+    background: radial-gradient(circle, rgba(65, 48, 55, 1) 29%, rgba(38, 29, 32, 1) 34%, rgba(24, 24, 32, 1) 97%);
+    color: silver;
+    font-family: 'Alef';
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 400px;
+
+}
+
+.imagesteak {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.top-left {
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+    margin-bottom: 0;
+
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #e4ba89;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h5 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+
+}
+
+#article-1 {
+    text-align: center;
+
+
+}
+
+section {
+    background: rgb(33, 19, 13);
+    background: linear-gradient(0deg, rgba(33, 19, 13, 0.5746673669467788) 0%, rgba(38, 29, 32, 1) 100%);
+}
+
+#floater-left {
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+    left: 6%;
+}
+
+#floater-middle {
+    text-align: center;
+    float: center;
+    margin-left: 20px;
+    margin: 10px;
+    position: absolute;
+    left: 39%;
+}
+
+#floater-right {
+    text-align: center;
+    margin: 10px;
+    position: absolute;
+    right: 6%;
+}
